@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+  }
+
+  
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+    background-color:black;
+  }
+
+
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .top-wrapper {
+    padding: 250px 0 100px 0;
+    color:white;
+    text-align: left;
+    background-image: url(lk1.jpg);
+    background-size: cover;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 80px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  .typing h1{
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: green;
+    margin: 50px;
+  }
+
+.typing > * {
+overflow: hidden;
+white-space: nowrap;
+animation: typingAnim 5s steps(27);
+}
+@keyframes typingAnim{
+from{width:0;}
+to {width: 100%;}
+}
+  
+  .btn-wrapper {
+    text-align: left;
+    margin: 20px 0;
+  }
+  
+  
+  .Detail {
+    background-color: green;
+  }
+    
+  .btn {
+    padding: 24px 48px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: left;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  
+  .logo {
+   width: 200px;
+    margin-top: -15px;
+    margin-left: -45px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .menu {
+    float: right;
+    margin-right: -35px;
+    margin-top: -4px;
+  }
+ .ContactNow{
+  background-color:green;
+  border: 1px solid grey;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+  
+  .menu li{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .menu a {
+    margin-top: 15px;
+    padding: 20px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 1s;
+  }
+  
+ 
+ul.submenu {
+    line-height: 30px;
+    padding:20px;
+    background-color:  rgba(80, 85, 77, 0.3);
+    text-align: left;
+    position: absolute;
+    border: 1px solid #73AD21;
+    top: 55px;
+    margin:20px;
+    display: none; 
+    transition: all 2s;
+    
+}
+  
+.menu ul li:hover ul.submenu  {
+    display: block;
+    
+} 
+
+
+.menu ul li ul.submenu li a:hover  {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 0px;
+}
+ul.submenu li {
+    display: inline;
+    margin-left: 0px;
+    padding-right: 10px;
+}
+	ul.submenu li a {
+    display: block;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top:0px;
+    padding-bottom: 0px;
+    margin: -5px;
+    font-size: 15px;
+}
+.menu ul li {
+    display: inline-block;
+    position: relative;
+}
+.menu ul li a:hover{
+  color: green;
+}
+  /*
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon {
+    color: rgb(14, 39, 22);
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    /* Gantikan property display ke none */
+    display: none;
+  }
+  
+  
+  .lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(4, 75, 4);
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: white;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+  .lesson-icon p {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color: white;
+  }
+  
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+  
+  .heading h3 {
+    color: white;
+  }
+  
+  .message-wrapper {
+    border-bottom: 1px solid green;
+    padding-bottom: 80px;
+    text-align: left;
+  }
+  
+  .t02{
+    font-size:70px;
+    margin-right: 20px;
+  }
+  .email{
+    color: green;
+    font-size: 20px;
+  }
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  table{
+    color: white;
+  }
+  footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  
